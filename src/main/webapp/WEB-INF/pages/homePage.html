@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<div>
+    <h2>Hello, welcome to the CRUD portal (v0.242.07)</h2>
+    <th:block>
+        </br>
+        </br>
+        <h3 th:text="Please sign in...<c:url value="/login" var="login"/> <a href="${login}">here</a></h3>
+        <h1 th:text="${msg}"></h1>
+    </th:block>
+
+
+
+
+</div>
+</body>
+</html>
